@@ -1,4 +1,6 @@
-# Multi-Agent-LLM
+# Multi-Agent-LLM  
+
+### News
 Oct. 24, 2024: The first upload is a [2-Agent-System](https://github.com/Sagnnik/Multi-Agent-LLM/blob/main/2-agent.ipynb). It is made up of a MANAGER and a CODER. The Task that is given to the MANAGER is wrapped with a json and sent to the CODER. There is a history variable to track the conversation history which is not being used currently. The generated code is then parsed and executed on the notebook itself.  
 This is not a practical solution as demostrated in the example when it is asked to set a meet and the time is given but not the person it takes 'John Doe' as the name and generates the code.  
 
